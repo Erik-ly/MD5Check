@@ -10,4 +10,6 @@
 jar -jar MD5Check-1.0-SNAPSHOT.jar folderPath scanFileInterval
 ```
 
-如`java -jar MD5Check-1.0-SNAPSHOT.jar /home/erik/md5Check/test 5000`，即每隔5000毫秒扫描`/home/erik/md5Check/test`目录下的文件变化，如果有变化则生成或更新该文件的MD5值文件
+如`java -jar MD5Check-1.0-SNAPSHOT.jar /home/erik/md5Check/test 5000`，
+
+即每隔5000毫秒扫描`/home/erik/md5Check/test`目录下的文件变化，如果有变化则生成或更新该文件的MD5值文件
