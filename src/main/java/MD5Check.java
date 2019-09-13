@@ -20,6 +20,8 @@ public class MD5Check {
 //        final String folderPath = "/home/erik/md5Check/test";
 //        int scanFileInterval = 5000;
 
+        //folderPath 需要监控的文件夹
+        //扫描间隔时间，单位毫秒
         final String folderPath = args[0];
         String scanFileIntervalStr = args[1];
         int scanFileInterval = Integer.valueOf(scanFileIntervalStr);

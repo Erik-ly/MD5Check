@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 扫描遍历文件夹获取 pom 文件列表
+ * 扫描遍历文件夹
  * @author Erik
  * @date 2019/7/3
  */
@@ -31,6 +31,7 @@ public class FileScanner {
 
                     String filePath = file.toString();
 
+                    //去掉“md5”结尾的文件
                     if (filePath.endsWith("md5")){
                         return FileVisitResult.CONTINUE;
                     }
